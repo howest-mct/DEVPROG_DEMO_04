@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DEVPROG_DEMO_04.MainPage" BackgroundColor="Black">
+
+    <ListView x:Name="lvwDrinks" ItemSelected="lvwDrinks_ItemSelected" RowHeight="60" SeparatorColor="#BA903F" Margin="16">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <BoxView BackgroundColor="#BA903F" />
+                        <BoxView Margin="1" BackgroundColor="Black" />
+                        <Label Text="{Binding Sign}" VerticalOptions="Center" HorizontalOptions="Center" 
+                               HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold" 
+                               TextColor="#BA903F" WidthRequest="60" />
+                        <Grid Padding="8" Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding Name}" TextColor="#BA903F" VerticalOptions="End" />
+                            <Label Text="{Binding PriceDisplay}" TextColor="#BA903F" VerticalOptions="End" HorizontalOptions="End" />
+
+                            <Label Text="{Binding Description}" FontSize="Micro" Grid.Row="1" TextColor="White" VerticalOptions="Start" />
+                        </Grid>
+                    </Grid>
+
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>

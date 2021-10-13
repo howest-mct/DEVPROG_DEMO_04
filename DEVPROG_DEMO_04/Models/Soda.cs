@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DEVPROG_DEMO_04.Model
+namespace DEVPROG_DEMO_04.Models
 {
     public class Soda : Drink   //automatically implement class using 'lightbulb' quick actions
     { 

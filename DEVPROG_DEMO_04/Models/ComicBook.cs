@@ -1,10 +1,11 @@
-﻿using System;
+﻿using DEVPROG_DEMO_04.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DEVPROG_DEMO_04.Model
+namespace DEVPROG_DEMO_04.Models
 {
     //this is no drink, but it IS collectable
     public class ComicBook : ICollectable

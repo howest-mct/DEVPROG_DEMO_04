@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using DEVPROG_DEMO_04.Model;
+using DEVPROG_DEMO_04.Models;
 
 namespace DEVPROG_DEMO_04
 {

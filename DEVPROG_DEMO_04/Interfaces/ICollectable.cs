@@ -1,4 +1,4 @@
-﻿namespace DEVPROG_DEMO_04.Model
+﻿namespace DEVPROG_DEMO_04.Interfaces
 {
     /// <summary>
     /// interface to determine collectable items, 

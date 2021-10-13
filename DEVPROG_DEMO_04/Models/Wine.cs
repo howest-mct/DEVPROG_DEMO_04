@@ -4,8 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DEVPROG_DEMO_04.Interfaces;
 
-namespace DEVPROG_DEMO_04.Model
+
+namespace DEVPROG_DEMO_04.Models
 {
     public enum WineType
     {

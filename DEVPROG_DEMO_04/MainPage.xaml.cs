@@ -37,7 +37,7 @@ namespace DEVPROG_DEMO_04
                 new Wine() { Name = "Vignerons de Puisserguier", Price=4.5, Country="France", Grapes = new List<string>{ "Merlot"}, Type=WineType.RED, PricePerBottle=22.5 },
                 new Wine() { Name = "Zevenwacht", Price=5.5, Country="South Africa", Grapes = new List<string>{ "Syrah", "Merlot", "Cabernet Sauvignon" }, Type=WineType.RED, PricePerBottle=27.5 },
                 new Wine() { Name = "Bulle de Blanquit", Price=8, Country="France", Grapes = new List<string>{ "Mauzac", "Chardonnay" }, Type=WineType.SPARKLING, PricePerBottle=38.50 },
-                new Cocktail() { Name="Mixy maxy", Price=13, Ingredients=new List<Drink> { new Soda() { Name = "Coca-cola", Price = 2, IsSugarFree = false } , new Wine() { Name = "Bulle de Blanquit", Price = 8, Country = "France", Grapes = new List<string> { "Mauzac", "Chardonnay" }, Type = WineType.SPARKLING, PricePerBottle = 38.50 } } }
+                new Cocktail() { Name="Mixy maxy", Price=13, Ingredients=new List<Drink> { new Soda() { Name = "Coca-cola", Price = 2, IsSugarFree = false } , new Wine() { Name = "Bulle de Blanquit", Price = 8, Country = "France", Grapes = new List<string> { "Mauzac", "Chardonnay" }, Type = WineType.RED, PricePerBottle = 38.50 } } }
             };
 
 
